@@ -122,8 +122,57 @@ button:active{
     background-color: #c0edff !important;
     color: black !important;
 }
-@media(max-width: 768px){
-    body{
-        padding: 40px;
-    }
+@media (max-width: 768px) {
+  body {
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .mainbox {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #display {
+    font-size: 22px;
+    padding: 8px 16px;
+  }
+
+  #bottombar {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  #numbuttons,
+  #operators {
+    width: 100%;
+    margin: 5px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #numbuttons button,
+  #operators button {
+    width: 30%;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+}
+@media (max-width: 480px) {
+  .mainbox {
+    padding: 15px;
+  }
+
+  #display {
+    font-size: 20px;
+  }
+
+  #numbuttons button,
+  #operators button {
+    width: 45%;
+    font-size: 18px;
+    padding: 8px 0;
+  }
 }
