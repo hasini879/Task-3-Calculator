@@ -154,7 +154,7 @@ button:active{
 
   #numbuttons button,
   #operators button {
-    width: 30%;
+    width: 50%;
     font-size: 20px;
     padding: 10px 0;
     margin: 5px 0;
